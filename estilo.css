@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+header{   
+    display: flex;    
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: right;
+}
+
+.menuH{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 10%;
+    cursor: pointer;
+}
+
+a{
+    color: black;
+    text-decoration: none; /* QUITAMOS EL COLOR DE LA REFERENCIA Y EL SUBRAYADO*/
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.botones{    
+    width: 12%;
+    display: flex;
+    justify-content: space-around;    
+}
+
+.botones-body{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem; 
+    width: 40%;       
+}
+
+#search{
+    height: 2rem;
+    width: 10rem;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+    border-style: none;
+    cursor: pointer;     
+    transition-duration: 0.4s;
+    
+}
+
+#search:hover {
+    background-color: #f8f9fa;    
+    border: 1px solid #3c4043; 
+}
+
+#lucky{
+    height: 2rem;
+    width: 10rem;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+    border-style: none;
+    cursor: pointer;  
+
+    transition-duration: 0.4s;
+}
+
+#lucky:hover {
+    background-color: #f8f9fa;    
+    border: 1px solid #3c4043; 
+}
+
+.search-icon{
+    padding-top: 0.5rem;
+    padding-left: 0.7rem;
+    height: 2.5rem;
+       
+    color: #9aa0a6;
+}
+
+#input-search{
+    width: 75%;
+    border: 0px solid white; 
+}
+
+#input-search:hover{
+   background-color: #9aa0a6;
+   border-color: transparent;
+}
+
+#mic-camara{
+    padding-right: 0.5rem;
+}
+
+.contenedor{     
+    margin-top: -16.2rem;  
+    width: 60%;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.uno{         
+    padding-bottom: 3rem;
+    width: 50%;    
+    display: flex;
+    justify-content: center;
+}
+
+#logo{
+    height: 100px;
+    width: 320px;
+}
+
+.dos{       
+    width: 72%;
+    display: flex;        
+    border-radius: 1.4rem;    
+    border: 1px solid;  
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dos:hover {
+    background-color: #f8f9fa;    
+    /*border: 1px outset #3c4043; */
+    box-shadow: 1px 1px 1px #3c4043;
+}
+
+
+
+
+footer{
+    background-color: #dce2e7;      
+    width: 100%;
+    height: 70px;    
+    padding: 1rem;
+    display: flex;      
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer ul{   
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    list-style: none;    
+}
+
+.lista-1{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lista-2{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sub-info{
+    display:block;
+    padding:15px;
+    white-space:nowrap;
+    text-decoration: none;
+}
+
+.sub-info:hover{
+    text-decoration: underline; /* CUANDO PASEMOS EL MOUSE SOBRE ETIQUETA, ESTE ACTUARA Y COLOCARA EL SUBRAYADO*/  
+}
+
+.sub-info{
+    color:#70757a;
+}
+
+
